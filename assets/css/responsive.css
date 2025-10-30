@@ -1,0 +1,510 @@
+@media (max-width: 1700px) and (min-width: 1401px) {
+  .HeaderLogo img {
+    max-width: 150px;
+    transform: scale(1.1) translateY(0px);
+  }
+  .bigText h2 {
+    font-size: 300px;
+  }
+
+  .bannerTopContentWrapper h1 {
+    font-size: 40px;
+  }
+
+  .PaverBlockSec img {
+    max-width: 30%;
+  }
+
+  .bottomText {
+    transform: translate(-50%, -35%) !important;
+  }
+
+  .bigText {
+    padding-bottom: 50px;
+  }
+  .bigText img {
+    max-height: 333px;
+    transform: translate(0%, -34%) !important;
+  }
+  .videoSec {
+    /* padding: 60px; */
+    line-height: 0;
+  }
+
+  .VideoIframe {
+    height: 100%;
+  }
+
+  .VideoIframe img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .macPlantImg {
+    height: 100vh;
+    background: #1dd2e3;
+  }
+
+  .macPlantImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+@media (max-width: 1400px) {
+  .bannerLogo {
+    padding: 50px 0;
+  }
+  .bannerLogo img {
+    max-width: 240px;
+  }
+  .bannerTopContentWrapper h1 {
+    font-size: 55px;
+  }
+  .bigText h2 {
+    font-size: 180px !important;
+  }
+  .bigText {
+    padding-bottom: 50px;
+  }
+  .bottomText p {
+    font-size: 18px;
+  }
+  .bottomText span {
+    font-size: 18px;
+  }
+  .machineContent h2 {
+    font-size: 30px;
+  }
+  .bntCall a {
+    font-size: 30px;
+  }
+  .bntCall {
+    padding: 25px;
+  }
+  .inqueryformTopContentWrapper {
+    gap: 40px;
+  }
+  .inqueryformContent p {
+    font-size: 28px;
+  }
+  .contentSec {
+    gap: 30px;
+  }
+  .contentSec h3 {
+    font-size: 25px;
+  }
+  .contentSec img {
+    max-width: 300px;
+  }
+  .videoSec {
+    /* padding: 80px; */
+    line-height: 0;
+  }
+  .secTitle h2 {
+    font-size: 25px;
+  }
+  .vibrationSec .title h2 {
+    font-size: 25px;
+  }
+  .vibrationGrid .vibrationItem h5 {
+    font-size: 16px;
+  }
+  .applicationSec,
+  .gallerySec,
+  .globalMap,
+  .inqueryformSec,
+  .vibrationSec,
+  .youtubeVideo {
+    padding: 50px 0;
+  }
+  .youtubeVideoGrid {
+    gap: 30px;
+  }
+  .addressGrid .row .col-sm-12.col-md-4 {
+    padding: 0 10px;
+    width: unset;
+    flex-grow: 1;
+  }
+  .addressGrid .row {
+    gap: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .addressItem {
+    padding: 20px 30px;
+  }
+  .addressItem .addressContent h5 {
+    font-size: 18px;
+  }
+  .addressItem .addressContent p {
+    font-size: 14px;
+  }
+  .applicationGridOne,
+  .applicationGridTwo {
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .applicationGridTwo {
+    grid-template-columns: 1fr 1fr;
+  }
+  .HeaderLogo img {
+    transform: unset;
+  }
+  .machineSec {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .vibrationGrid {
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-start;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .mobileBlock {
+    display: block;
+  }
+  .mobileNone {
+    display: none;
+  }
+  .applicationGridOne {
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+  .galleryGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  .videoCompany {
+    padding-bottom: 50px;
+  }
+  .videoCompanyImg {
+    max-width: 100%;
+  }
+  .applicationSec .applicationItem {
+    width: 100%;
+  }
+  /* .bigText h2 {
+    font-size: 150px !important;
+  } */
+  .bannerTopContentWrapper h1 {
+    font-size: 25px;
+  }
+  .machineContent h2 {
+    font-size: 20px;
+  }
+  .machineContent {
+    top: 20px;
+    right: 20px;
+  }
+  .bntCall a {
+    font-size: 20px;
+  }
+  .inqueryformTopContentWrapper {
+    gap: 30px;
+  }
+  .inqueryformContent p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .videoSec {
+    padding: 0px;
+  }
+  .applicationSec .applicationItem img {
+    width: 100%;
+  }
+  .HeaderLogo img {
+    transform: unset;
+  }
+  /* .bottomText {
+    transform: translate(-50%, -20px) !important;
+  } */
+}
+@media (max-width: 767px) {
+  .bannerLogo {
+    padding: 50px 0;
+  }
+  .bannerLogo img {
+    max-width: 240px;
+  }
+  .bannerTopContentWrapper h1 {
+    font-size: 30px;
+  }
+  .bannerContent {
+    gap: 25px !important;
+    padding-bottom: 50px;
+  }
+  .bigText h2 {
+    font-size: 130px !important;
+  }
+  .bottomText p {
+    font-size: 16px;
+  }
+  .bottomText span {
+    font-size: 18px;
+  }
+  .machineContent h2 {
+    font-size: 30px;
+  }
+  .bntCall a {
+    font-size: 20px;
+  }
+  .bntCall {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .inqueryformTopContentWrapper {
+    gap: 20px;
+  }
+  .inqueryformContent p {
+    font-size: 20px;
+  }
+  .contentSec {
+    gap: 30px;
+  }
+  .contentSec h3 {
+    font-size: 25px;
+  }
+  .contentSec img {
+    max-width: 300px;
+  }
+  .videoSec {
+    padding: 0px;
+    height: auto;
+  }
+  .secTitle h2 {
+    font-size: 25px;
+  }
+  .vibrationSec .title h2 {
+    font-size: 25px;
+  }
+  .vibrationGrid .vibrationItem h5 {
+    font-size: 16px;
+  }
+  .applicationSec,
+  .gallerySec,
+  .globalMap,
+  .inqueryformSec,
+  .vibrationSec,
+  .youtubeVideo {
+    padding: 50px 0;
+  }
+  .youtubeVideoGrid {
+    gap: 30px;
+  }
+  .addressGrid .row .col-sm-12.col-md-4 {
+    padding: 0 10px;
+    width: unset;
+    flex-grow: 1;
+  }
+  .addressGrid .row {
+    gap: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .addressItem {
+    padding: 20px 30px;
+  }
+  .addressItem .addressContent h5 {
+    font-size: 18px;
+  }
+  .addressItem .addressContent p {
+    font-size: 14px;
+  }
+  .applicationGridOne,
+  .applicationGridTwo {
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .applicationGridTwo {
+    grid-template-columns: 1fr 1fr;
+  }
+  .bigText img {
+    max-width: 50% !important;
+    transform: unset !important;
+  }
+  .bigText {
+    padding-bottom: 50px;
+  }
+  .bottomText {
+    position: relative;
+    max-width: 100%;
+    transform: translate(0px, 0px) !important;
+    left: 0;
+  }
+  .bigText {
+    padding: 0px;
+  }
+  .bannerTopContentWrapper {
+    gap: 15px;
+  }
+  .bannerTopContentWrapper p {
+    font-size: 16px;
+  }
+  .galleryGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .HeaderLogo {
+    padding: 20px 20px;
+    text-align: center;
+  }
+  .applicationSec .row {
+    gap: 15px 0px;
+  }
+  .bannerImg {
+    display: none;
+  }
+  .bannerMobileImg {
+    display: block !important;
+  }
+  .globalMap .title {
+    margin-bottom: 40px;
+  }
+  .globalMap .title h2 {
+    font-size: 24px;
+  }
+  .slider-box-content {
+    right: 0;
+  }
+  .secTitle {
+    margin-bottom: 40px;
+  }
+  .testimonial-slider-rtl .swiper-slide {
+    clip-path: unset !important;
+    padding: 0px 15px;
+  }
+  .inqueryformContent form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .bigText h2 {
+    font-size: 80px !important;
+  }
+  .bannerTopContentWrapper h1 {
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  .bannerLogo {
+    padding: 20px 0;
+  }
+  .bannerLogo img {
+    max-width: 150px;
+  }
+  .machineContent h2 {
+    font-size: 16px;
+    letter-spacing: 0px;
+  }
+
+  .contentSec h3 {
+    font-size: 18px;
+  }
+
+  .secTitle h2 {
+    font-size: 18px;
+    padding: 0px 16px;
+  }
+
+  .playIcon img {
+    max-width: 60px;
+  }
+
+  .vibrationSec .title h2 {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .vibrationSec .title {
+    margin-bottom: 30px;
+  }
+
+  .vibrationGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .applicationGridOne,
+  .applicationGridTwo {
+    grid-template-columns: 1fr;
+  }
+
+  .youtubeVideoGrid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .globalMap .title h2 {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  .globalMap .title {
+    margin-bottom: 30px;
+  }
+
+  .addressGrid .row {
+    grid-template-columns: 1fr;
+  }
+  .appContent h5 br {
+    display: none;
+  }
+
+  .contentSec img {
+    max-width: 200px;
+  }
+
+  .inputFiled input,
+  .inputFiled textarea {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .vibrationGrid .vibrationItem {
+    padding: 30px;
+    border: 1px solid #1dd2e3;
+  }
+}
+
+.macPlantImg {
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .vibrationGrid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .vibrationGrid .vibrationItem img {
+    height: 80px !important;
+    max-height: 80px !important;
+    width: 80% !important;
+  }
+  .vibrationGrid .vibrationItem h5 {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .HeaderBtn a {
+    display: none;
+  }
+
+  .HeaderLogo {
+    display: block;
+  }
+
+  .CustomHeader{
+    position: unset;
+  }
+
+  .machineSec {
+    padding: 50px 0px 60px 0px;
+  }
+
+  .SolutionGif img {
+      transform: scale(1.6);
+      margin-top: 30px;
+  }
+}

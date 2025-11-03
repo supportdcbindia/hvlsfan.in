@@ -79,7 +79,7 @@
                                             </svg></i>
                                         <div class="call-icons">
                                           
-                                            <span></span><a href="tel:+917861867019">+91 78618 67019</a>
+                                            <span></span><a href="tel:+917861895765">+91 78618 95765</a>
                                         </div>
                                     </li>
                                     <li>
@@ -99,7 +99,7 @@
                                                 </g>
                                             </svg></i>
                                         <span class="call-icons"><a
-                                                href="mailto:ops6@marutair.com">ops6@marutair.com</a></span>
+                                                href="mailto:ops9@marutair.com">ops9@marutair.com</a></span>
 
                                     </li>
                                 </ul>

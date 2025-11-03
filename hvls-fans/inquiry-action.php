@@ -40,38 +40,38 @@ $products= htmlspecialchars(stripslashes(trim($_POST['products'])));
 
 
 
-// $resArr = array();
-// $resArr["name"] = htmlspecialchars(stripslashes(trim($_POST['name'])));
-// $resArr["mobile"] = htmlspecialchars(stripslashes(trim($_POST['number'])));
-// $resArr["phone"] = htmlspecialchars(stripslashes(trim($_POST['number'])));
-// $resArr["email_from" ]= htmlspecialchars(stripslashes(trim($_POST['email'])));
-// $resArr["city" ]= "";
-// $resArr["contact_name" ]= htmlspecialchars(stripslashes(trim($_POST['name'])));
-// $resArr["inq_source" ]= "website lp";
-// $resArr["reequired_product" ]= htmlspecialchars(stripslashes(trim($_POST['products'])));
-// $resArr["QUERY_ID" ]= time();
+$resArr = array();
+$resArr["name"] = htmlspecialchars(stripslashes(trim($_POST['name'])));
+$resArr["mobile"] = htmlspecialchars(stripslashes(trim($_POST['number'])));
+$resArr["phone"] = htmlspecialchars(stripslashes(trim($_POST['number'])));
+$resArr["email_from" ]= htmlspecialchars(stripslashes(trim($_POST['email'])));
+$resArr["city" ]= "";
+$resArr["contact_name" ]= htmlspecialchars(stripslashes(trim($_POST['name'])));
+$resArr["inq_source" ]= "website lp";
+$resArr["reequired_product" ]= htmlspecialchars(stripslashes(trim($_POST['products'])));
+$resArr["QUERY_ID" ]= time();
 
 
 
-// $curl1 = curl_init();
+$curl1 = curl_init();
 
-// curl_setopt_array($curl1, array(
-//   CURLOPT_URL => 'https://crm.marutair.com/marutAir/lead/add',
-//   CURLOPT_RETURNTRANSFER => true,
-//   CURLOPT_ENCODING => '',
-//   CURLOPT_MAXREDIRS => 10,
-//   CURLOPT_TIMEOUT => 0,
-//   CURLOPT_FOLLOWLOCATION => true,
-//   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-//   CURLOPT_CUSTOMREQUEST => 'POST',
-//   CURLOPT_POSTFIELDS =>json_encode($resArr),
-//   CURLOPT_HTTPHEADER => array(
-//     'Content-Type: application/json'
-//   ),
-// ));
+curl_setopt_array($curl1, array(
+  CURLOPT_URL => 'https://crm.marutair.com/marutAir/lead/v2/add',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'POST',
+  CURLOPT_POSTFIELDS =>json_encode($resArr),
+  CURLOPT_HTTPHEADER => array(
+    'Content-Type: application/json'
+  ),
+));
 
-// $response = curl_exec($curl1);
-// curl_close($curl1);
+$response = curl_exec($curl1);
+curl_close($curl1);
 
 // ==========
 

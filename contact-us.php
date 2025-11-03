@@ -69,7 +69,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="ContactAddressItem">
+                        <!-- <div class="ContactAddressItem">
                             <div class="ContactAddressIcon">
                                 <img src="./images/phone.svg" />
                             </div>
@@ -103,7 +103,7 @@
                                     <li><a href="tel:18002026971">18002026971</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

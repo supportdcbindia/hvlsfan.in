@@ -198,7 +198,7 @@
                         <div class="container">
                             <div class="hm-inquire-content text-center fadeUp">
                                 <h2 class="text-white mb-50">Let’s connect and build better airflow together.</h2>
-                                <a target="" href="#" class="btn-theme-two">Inquire
+                                <a class="click1" href="javascript:;" class="btn-theme-two">Inquire
                                     Now</a>
 
                             </div>

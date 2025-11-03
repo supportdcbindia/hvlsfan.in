@@ -222,14 +222,14 @@
 
   <div class="footer-box" style="display: none;">
     <div class="book-app" style="background:#29499e;" id="req-apnmt2">
-      <a class="nav_up click1" href="javascript:;" style="color:#FFF; font-size:12px;font-weight:600;"><i class="fa-solid fa-envelope" style="margin-right: 5px;"></i> </a>
+      <a class="nav_up click1" href="javascript:;" style="color:#FFF; font-size:12px;font-weight:600;"><i class="fa-solid fa-envelope" style="margin-right: 5px;"></i> Inquiry</a>
     </div>
     <div class="book-app" style="background:#000;" id="req-apnmt2">
-      <a class="nav_up click1" href="tel:917861895765" style="color:#FFF; font-size:12px;font-weight:600;"><i class="fa-solid fa-phone" style="margin-right: 5px;"></i> </a>
+      <a class="nav_up" href="tel:917861895765" style="color:#FFF; font-size:12px;font-weight:600;"><i class="fa-solid fa-phone" style="margin-right: 5px;"></i> Call</a>
     </div>
      
     <div class="book-app" style="background: #2db640;">
-    <a onclick="gtag('event', 'send', { 'event_category': 'click on whatsapp', 'event_action': 'Mobile', 'event_label': '+917861895765' });" href="https://api.whatsapp.com/send?phone=917861895765&amp;text=Hello Team Marut Air, I was going through your Website, Please connect me for product discussion." target="_blank" style="color:#FFF; font-size:12px;font-weight:600;"><i class="fab fa-whatsapp" style="margin-right: 5px;"></i> </a>
+    <a onclick="gtag('event', 'send', { 'event_category': 'click on whatsapp', 'event_action': 'Mobile', 'event_label': '+917861895765' });" href="https://api.whatsapp.com/send?phone=917861895765&amp;text=Hello Team Marut Air, I was going through your Website, Please connect me for product discussion." target="_blank" style="color:#FFF; font-size:12px;font-weight:600;"><i class="fab fa-whatsapp" style="margin-right: 5px;"></i> Whatsapp</a>
   </div>
 
   </div>

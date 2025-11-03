@@ -26,8 +26,8 @@
     <meta name="twitter:image" content="https://marutair.com/wp-content/uploads/2020/06/Marutair_Hvls_Fan.jpg" />
     <meta name="twitter:label1" content="Est. reading time" />
     <meta name="twitter:data1" content="15 minutes" />
-    <link rel="stylesheet preload" as="style" href="assest/css/model-custom-new.css">
-    <link rel="stylesheet preload" as="style" href="assest/css/sidebar-btn.css">
+    <link rel="stylesheet preload" as="style" href="assest/css/model-custom-new.css?ver=<?php echo time(); ?>">
+    <link rel="stylesheet preload" as="style" href="assest/css/sidebar-btn.css?ver=<?php echo time(); ?>">
     <!-- / Yoast SEO plugin. -->
     <link rel="shortcut icon" href="assest/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assest/css/bootstrap.min.css">

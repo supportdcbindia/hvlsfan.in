@@ -246,7 +246,7 @@
                 </ul>
             </div>
             <div class="copyright">
-                <span>&copy; 2025 Marut Air | All Rights Reserved.</span>
+                <span>&copy; <?php echo date("Y"); ?> Marut Air | All Rights Reserved.</span>
             </div>
         </div>
     </div>

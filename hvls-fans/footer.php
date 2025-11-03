@@ -180,7 +180,7 @@
             <div class="container">
                 <div class="footer-bottom">
                     <div class="row align-items-center text-center">
-                        <span class="copyright-text">Copyright © 2024 <a href="javascript:;" target="_blank">Marut
+                        <span class="copyright-text">Copyright © <?php echo date("Y"); ?> <a href="javascript:;" target="_blank">Marut
                                 Air</a>
                             All Rights Reserved.</span>
                     </div>

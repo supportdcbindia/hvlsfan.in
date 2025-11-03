@@ -307,4 +307,8 @@ h4.thnak4 {
         padding: 20px 15px;
         margin-top: 25px;
     }
+
+    .cstm-captcha {
+        padding: 0px !important;
+    }
 }

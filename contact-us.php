@@ -164,7 +164,7 @@
                                     <div class="col-md-6 col-12">
                                         <div class="form-group has-feedback">
                                             <div class="row">
-                                                <div class="col-md-8 col position-relative">
+                                                <div class="col-md-8 col position-relative cstm-captcha">
                                                     <input name="captcha" id="captcha" placeholder="Captcha Code" class="form-control" type="text">
 
                                                 </div>

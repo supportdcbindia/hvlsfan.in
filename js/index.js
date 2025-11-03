@@ -117,7 +117,10 @@ jQuery(document).ready(function() {
        required: true,
        number: true,
      },
-    
+     products: {
+       required: true,
+       
+     },
      captcha: {
        required: true,
      },
@@ -139,7 +142,10 @@ jQuery(document).ready(function() {
        required: 'This Filed is required',
        number: 'Please Enter Valid Mobile Number',
      },
-    
+     products: {
+       required: 'This Filed is required',
+       
+     },
      captcha: {
        required: 'This Filed is required',
      },

@@ -10,86 +10,73 @@
         <div class="footer-wrap">
             <div class="row justify-content-between">
                 <div class="col-sm-12 col-lg-5 footer-left">
-                    <div class="footerform">
+                    <div class="footerform my-custom-modal">
 
                         <div class="wpcf7 no-js" id="wpcf7-f940-o1" lang="en-US" dir="ltr">
                             <div class="screen-reader-response">
                                 <p role="status" aria-live="polite" aria-atomic="true"></p>
                                 <ul></ul>
                             </div>
-                            <form action="/#wpcf7-f940-o1" method="post" class="wpcf7-form init"
-                                aria-label="Contact form" novalidate="novalidate" data-status="init">
-                                <div style="display: none">
-                                    <input type="hidden" name="_wpcf7" value="940" />
-                                    <input type="hidden" name="_wpcf7_version" value="5.9.6" />
-                                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f940-o1" />
-                                    <input type="hidden" name="_wpcf7_container_post" value="0" />
-                                    <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                                    <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
-                                </div>
+                            <form class="form-horizontal form3" action="inquiry-action.php" method="post" novalidate="novalidate">
                                 <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <span class="wpcf7-form-control-wrap" data-name="c_firstname"><input size="40"
-                                                maxlength="80"
-                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
-                                                autocomplete="off" aria-required="true" aria-invalid="false"
-                                                placeholder="First Name" value="" type="text"
-                                                name="c_firstname" /></span>
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <input name="name" id="name" type="text" placeholder="Name" class="form-control">
+                                        </div>
                                     </div>
-                                    <div class="form-group col-md-6">
-                                        <span class="wpcf7-form-control-wrap" data-name="c_lastname"><input size="40"
-                                                maxlength="80"
-                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
-                                                autocomplete="off" aria-required="true" aria-invalid="false"
-                                                placeholder="Last Name" value="" type="text" name="c_lastname" /></span>
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <input name="cname" id="cname" type="text" placeholder="Company Name" class="form-control">
+                                        </div>
                                     </div>
-                                    <div class="form-group col-md-6">
-                                        <span class="wpcf7-form-control-wrap" data-name="c_companyname"><input size="40"
-                                                maxlength="80"
-                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
-                                                autocomplete="off" aria-required="true" aria-invalid="false"
-                                                placeholder="Company" value="" type="text"
-                                                name="c_companyname" /></span>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <input name="email" id="email" type="text" placeholder="E-Mail Address" class="form-control">
+                                        </div>
                                     </div>
-                                    <div class="form-group col-md-6">
-                                        <span class="wpcf7-form-control-wrap" data-name="c_email"><input size="40"
-                                                maxlength="80"
-                                                class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control"
-                                                autocomplete="off" aria-required="true" aria-invalid="false"
-                                                placeholder="Email" value="" type="email" name="c_email" /></span>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <input name="number" id="number" type="tel" placeholder="Phone" maxlength="15" minlength="10" class="form-control number21">
+                                        </div>
                                     </div>
-                                    <div class="form-group col-md-6">
-                                        <span class="wpcf7-form-control-wrap" data-name="c_number"><input size="40"
-                                                maxlength="80"
-                                                class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel form-control"
-                                                autocomplete="off" aria-required="true" aria-invalid="false"
-                                                placeholder="Phone" value="" type="tel" name="c_number" /></span>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <select class="form-control" name="products">
+                                                <option value="" class="placeholder" disabled="" selected="selected">Select product</option>
+                                                <option value="HVLS Fans">HVLS Fans</option>
+                                                <option value="Exhaust Fans">Exhaust Fans</option>
+                                                <option value="Industrial Air Cooler">Industrial Air Cooler</option>
+                                                <option value="Mobile Fans">Mobile Fans</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                    <div class="form-group col-md-6">
-                                        <span class="wpcf7-form-control-wrap" data-name="c_location"><input size="40"
-                                                maxlength="80"
-                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
-                                                autocomplete="off" aria-required="true" aria-invalid="false"
-                                                placeholder="Location" value="" type="text" name="c_location" /></span>
-                                    </div>
-                                    <div class="form-group col-12">
-                                        <span class="wpcf7-form-control-wrap" data-name="description"><textarea
-                                                cols="40" rows="10" maxlength="400"
-                                                class="wpcf7-form-control wpcf7-textarea form-control"
-                                                aria-invalid="false" placeholder="Message"
-                                                name="description"></textarea></span>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="d-inline-block position-relative">
-                                            <div class="btn-theme-submit">
-                                                <input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit"
-                                                    value="Submit" />
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <div class="row">
+                                                <div class="col-md-8 col position-relative">
+                                                    <input name="captcha" id="captcha" placeholder="Captcha Code" class="form-control" type="text">
+
+                                                </div>
+                                                <div class="col-md-4 col">
+                                                    <img src="captcha.php" class="capside">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                <div class="form-group has-feedback">
+                                    <div class="col-md-12 col-sm-3 col-xs-12">
+                                        <input name="submit" class="submit submitbutton" type="submit" value="Submit Now!" style="background-color: #c1c1c1 !important; color: #000 !important;">
+                                    </div>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -284,8 +271,8 @@
 
 <!-- <script src="js/custom-dev.js?ver=6.5.5" id="gayatrirubtech-custom-dev-js-js"></script> -->
 
-<script  src="js/index.js?ver=1.8"></script>
-<script  src="js/form-buzz.js"></script>
+<script src="js/index.js?ver=1.8"></script>
+<script src="js/form-buzz.js"></script>
 
 
 </body>

@@ -124,43 +124,66 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <div class="contactForm">
-                            <form class="form-horizontal form1" action="inquiry-action.php" method="post" novalidate="novalidate">
-                                <div class="form-group">
-                                    <input name="name" id="name" type="text" placeholder="Name" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <input name="email" id="email" type="text" placeholder="E-Mail Address" class="form-control">
-                                </div>
-                                <div class="form-group class-feedback">
-                                    <div class="col-md-12 col-sm-12 col-xs-12 mybottom">
-                                        <select id="country" name="country" class="form-control"></select>
+                        <div class="contactForm my-custom-modal">
+                            <form class="form-horizontal form2" action="inquiry-action.php" method="post" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <input name="name" id="name" type="text" placeholder="Name" class="form-control">
+                                        </div>
                                     </div>
-                                    <div class="col-md-4 col-sm-4 col-xs-4 mybottom" style="display: none;">
-                                        <select name="code" id="state" class="form-control" style="padding-right: 0;color: #999;">
-                                            <option value="">+00</option>
-                                        </select>
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <input name="cname" id="cname" type="text" placeholder="Company Name" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <input name="email" id="email" type="text" placeholder="E-Mail Address" class="form-control">
+                                        </div>
                                     </div>
 
-                                </div>
-                                <div class="form-group">
-                                    <input name="number" id="number" type="tel" placeholder="Phone" maxlength="15" minlength="10" class="form-control number21">
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" id="message" placeholder="Requirement"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <div class="CaptchaGrid">
-                                        <div class="CaptchaItem">
-                                            <input name="captcha" id="captcha" placeholder="Captcha Code" class="form-control" type="text">
-                                        </div>
-                                        <div class="CaptchaItem">
-                                            <img src="captcha.php" class="capside">
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <input name="number" id="number" type="tel" placeholder="Phone" maxlength="15" minlength="10" class="form-control number21">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group mb-0">
-                                    <input name="submit" class="downloadBrochure more-link" type="submit" value="Submit Now!">
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <select class="form-control" name="products">
+                                                <option value="" class="placeholder" disabled="" selected="selected">Select product</option>
+                                                <option value="HVLS Fans">HVLS Fans</option>
+                                                <option value="Exhaust Fans">Exhaust Fans</option>
+                                                <option value="Industrial Air Cooler">Industrial Air Cooler</option>
+                                                <option value="Mobile Fans">Mobile Fans</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group has-feedback">
+                                            <div class="row">
+                                                <div class="col-md-8 col position-relative">
+                                                    <input name="captcha" id="captcha" placeholder="Captcha Code" class="form-control" type="text">
+
+                                                </div>
+                                                <div class="col-md-4 col">
+                                                    <img src="captcha.php" class="capside">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <div class="col-md-12 col-sm-3 col-xs-12">
+                                        <input name="submit" class="submit submitbutton" type="submit" value="Submit Now!" style="color: #fff !important;">
+                                    </div>
                                 </div>
                             </form>
                         </div>

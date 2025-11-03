@@ -2,9 +2,9 @@
 session_start();
 error_reporting(0);
 
-$contact_page = "https://marutair.com/lp";
-$subject_line= "New Enquiry From Marut Air Corporate Website";
-$from_email = "ops7@marutair.com";
+$contact_page = "https://hvlsfan.in/hvls-fans";
+$subject_line= "New Enquiry From HVLS Fan - Landing Page";
+$from_email = "support@hvlsfan.in";
 $to_email = "sales@marutair.com";
 $to_email1 = "cs@marutair.com";
 $to_email2 = "info@marutair.com";
@@ -12,7 +12,7 @@ $to_email3 = "ops1@marutair.com";
 $to_email4 = "ops6@marutair.com";
 
 
-$thanks_page = "https://marutair.com/lp/thankyou.php";
+$thanks_page = "https://hvlsfan.in/hvls-fans/thankyou.php";
 
 function send_request($data){
   $curl = curl_init();
@@ -40,38 +40,40 @@ $products= htmlspecialchars(stripslashes(trim($_POST['products'])));
 
 
 
-$resArr = array();
-$resArr["name"] = htmlspecialchars(stripslashes(trim($_POST['name'])));
-$resArr["mobile"] = htmlspecialchars(stripslashes(trim($_POST['number'])));
-$resArr["phone"] = htmlspecialchars(stripslashes(trim($_POST['number'])));
-$resArr["email_from" ]= htmlspecialchars(stripslashes(trim($_POST['email'])));
-$resArr["city" ]= "";
-$resArr["contact_name" ]= htmlspecialchars(stripslashes(trim($_POST['name'])));
-$resArr["inq_source" ]= "website lp";
-$resArr["reequired_product" ]= htmlspecialchars(stripslashes(trim($_POST['products'])));
-$resArr["QUERY_ID" ]= time();
+// $resArr = array();
+// $resArr["name"] = htmlspecialchars(stripslashes(trim($_POST['name'])));
+// $resArr["mobile"] = htmlspecialchars(stripslashes(trim($_POST['number'])));
+// $resArr["phone"] = htmlspecialchars(stripslashes(trim($_POST['number'])));
+// $resArr["email_from" ]= htmlspecialchars(stripslashes(trim($_POST['email'])));
+// $resArr["city" ]= "";
+// $resArr["contact_name" ]= htmlspecialchars(stripslashes(trim($_POST['name'])));
+// $resArr["inq_source" ]= "website lp";
+// $resArr["reequired_product" ]= htmlspecialchars(stripslashes(trim($_POST['products'])));
+// $resArr["QUERY_ID" ]= time();
 
 
 
-$curl1 = curl_init();
+// $curl1 = curl_init();
 
-curl_setopt_array($curl1, array(
-  CURLOPT_URL => 'https://crm.marutair.com/marutAir/lead/add',
-  CURLOPT_RETURNTRANSFER => true,
-  CURLOPT_ENCODING => '',
-  CURLOPT_MAXREDIRS => 10,
-  CURLOPT_TIMEOUT => 0,
-  CURLOPT_FOLLOWLOCATION => true,
-  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-  CURLOPT_CUSTOMREQUEST => 'POST',
-  CURLOPT_POSTFIELDS =>json_encode($resArr),
-  CURLOPT_HTTPHEADER => array(
-    'Content-Type: application/json'
-  ),
-));
+// curl_setopt_array($curl1, array(
+//   CURLOPT_URL => 'https://crm.marutair.com/marutAir/lead/add',
+//   CURLOPT_RETURNTRANSFER => true,
+//   CURLOPT_ENCODING => '',
+//   CURLOPT_MAXREDIRS => 10,
+//   CURLOPT_TIMEOUT => 0,
+//   CURLOPT_FOLLOWLOCATION => true,
+//   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+//   CURLOPT_CUSTOMREQUEST => 'POST',
+//   CURLOPT_POSTFIELDS =>json_encode($resArr),
+//   CURLOPT_HTTPHEADER => array(
+//     'Content-Type: application/json'
+//   ),
+// ));
 
-$response = curl_exec($curl1);
-curl_close($curl1);
+// $response = curl_exec($curl1);
+// curl_close($curl1);
+
+// ==========
 
 
 // curl_setopt_array($curl, array(
@@ -95,7 +97,7 @@ curl_close($curl1);
 // $response = json_decode(curl_exec($curl));
 // curl_close($curl);
 
-$allowed_origins = array('https://marutair.com/', 'https://www.marutair.com/', 'http://marutair.com/', 'http://www.marutair.com/','https://marutair.com', 'https://www.marutair.com', 'http://marutair.com', 'http://www.marutair.com');
+$allowed_origins = array('https://hvlsfan.in/', 'https://www.hvlsfan.in/', 'http://hvlsfan.in/', 'http://www.hvlsfan.in/','https://hvlsfan.in', 'https://www.hvlsfan.in', 'http://hvlsfan.in', 'http://www.hvlsfan.in');
 if (!in_array($_SERVER['HTTP_ORIGIN'], $allowed_origins)) {
     header('location:'.$contact_page);
 }
@@ -298,11 +300,10 @@ if($response->result){
 
 
 																					Sent from <a
-																						href="https://marutair.com/"
+																						href="https://hvlsfan.in/"
 																						style="color:#bbbbbb"
 																						target="_blank"
-																						>Marut
-																						Air</a>
+																						>HVLS Fan</a>
 																				</td>
 																			</tr>
 																		</tbody>

@@ -28,93 +28,6 @@
     <meta name="twitter:data1" content="15 minutes" />
     <link rel="stylesheet preload" as="style" href="assest/css/model-custom-new.css">
     <link rel="stylesheet preload" as="style" href="assest/css/sidebar-btn.css">
-    <script type="application/ld+json" class="yoast-schema-graph">
-    {
-        "@context": "https://schema.org",
-        "@graph": [{
-            "@type": "WebPage",
-            "@id": "https://marutair.com/",
-            "url": "https://marutair.com/",
-            "name": "HVLS Fans Manufacturer | Big Industrial HVLS Fan | Marut Air",
-            "isPartOf": {
-                "@id": "https://marutair.com/#website"
-            },
-            "about": {
-                "@id": "https://marutair.com/#organization"
-            },
-            "primaryImageOfPage": {
-                "@id": "https://marutair.com/#primaryimage"
-            },
-            "image": {
-                "@id": "https://marutair.com/#primaryimage"
-            },
-            "thumbnailUrl": "https://marutair.com/wp-content/uploads/2020/06/CONNECTION-2.svg",
-            "datePublished": "2020-05-30T08:04:51+00:00",
-            "dateModified": "2024-11-26T07:28:45+00:00",
-            "description": "Marut Air is a leading manufacturer of huge industrial & gear-less HVLS fans in India. We provides cooling & ventilation solution with the best quality products and lifetime support.",
-            "breadcrumb": {
-                "@id": "https://marutair.com/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [{
-                "@type": "ReadAction",
-                "target": ["https://marutair.com/"]
-            }]
-        }, {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://marutair.com/#primaryimage",
-            "url": "https://marutair.com/wp-content/uploads/2020/06/CONNECTION-2.svg",
-            "contentUrl": "https://marutair.com/wp-content/uploads/2020/06/CONNECTION-2.svg",
-            "width": 500,
-            "height": 500
-        }, {
-            "@type": "BreadcrumbList",
-            "@id": "https://marutair.com/#breadcrumb",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home"
-            }]
-        }, {
-            "@type": "WebSite",
-            "@id": "https://marutair.com/#website",
-            "url": "https://marutair.com/",
-            "name": "Marut Air",
-            "description": "HVLS Fans &amp; Industrial Ventilation Engineering",
-            "publisher": {
-                "@id": "https://marutair.com/#organization"
-            },
-            "potentialAction": [{
-                "@type": "SearchAction",
-                "target": {
-                    "@type": "EntryPoint",
-                    "urlTemplate": "https://marutair.com/?s={search_term_string}"
-                },
-                "query-input": "required name=search_term_string"
-            }],
-            "inLanguage": "en-US"
-        }, {
-            "@type": "Organization",
-            "@id": "https://marutair.com/#organization",
-            "name": "Marut Air",
-            "url": "https://marutair.com/",
-            "logo": {
-                "@type": "ImageObject",
-                "inLanguage": "en-US",
-                "@id": "https://marutair.com/#/schema/logo/image/",
-                "url": "https://marutair.com/wp-content/uploads/2020/04/marut-web.webp",
-                "contentUrl": "https://marutair.com/wp-content/uploads/2020/04/marut-web.webp",
-                "width": 221,
-                "height": 59,
-                "caption": "Marut Air"
-            },
-            "image": {
-                "@id": "https://marutair.com/#/schema/logo/image/"
-            }
-        }]
-    }
-    </script>
     <!-- / Yoast SEO plugin. -->
     <link rel="shortcut icon" href="assest/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assest/css/bootstrap.min.css">
@@ -138,7 +51,7 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NWHFDKV');</script>
+})(window,document,'script','dataLayer','GTM-MQTJCWM8');</script>
 <!-- End Google Tag Manager -->
 <style>
         .header-two-solari.header-top {
@@ -207,7 +120,7 @@ header {
 
 <body data-page="index.php">
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWHFDKV"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQTJCWM8"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     <?php include("pop-model.php"); ?>

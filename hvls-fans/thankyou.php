@@ -15,7 +15,7 @@
 <section class="about-layout1">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 mt-1 mb-5 mobile thnak">
+            <div class="col-lg-12 col-md-12 mt-1 mb-1 mobile thnak">
                 <h3 class="text-center thnak3" style="color: green;">Thankyou!!Successfully Submitted</h3>
                 <h4 class="text-center thnak4" style="padding: 0;">Your Inquiry has been successfully submitted to the
                     concern department.You will get a reply within 24 hours from our side.....!!</h4>

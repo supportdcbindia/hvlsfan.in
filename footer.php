@@ -272,6 +272,8 @@
 </div>
 </main>
 
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script src="js/bootstrap.bundle.min.js?ver=6.5.5" id="gayatrirubtech-jquery-bootstrap-bundle-min-js-js"></script>
 <script src="js/gsap.min.js?ver=6.5.5" id="gayatrirubtech-jquery-gsap-min-js-js"></script>
 <script src="js/ScrollTrigger.min.js?ver=6.5.5" id="gayatrirubtech-jquery-ScrollTrigger-min-js-js"></script>
@@ -279,7 +281,11 @@
 <script src="js/slick.js?ver=6.5.5" id="gayatrirubtech-jquery-slick-js-js"></script>
 <script src="js/fancybox.umd.js?ver=6.5.5" id="gayatrirubtech-fancybox-js-js"></script>
 <script src="js/main.js?ver=6.5.5" id="gayatrirubtech-jquery-main-js-js"></script>
+
 <!-- <script src="js/custom-dev.js?ver=6.5.5" id="gayatrirubtech-custom-dev-js-js"></script> -->
+
+<script  src="js/index.js?ver=1.8"></script>
+<script  src="js/form-buzz.js"></script>
 
 
 </body>

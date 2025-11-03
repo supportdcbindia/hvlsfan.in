@@ -9,13 +9,10 @@
         display: flex;
         align-items: baseline;
         transition: all 1s ease 0s;
-        /*max-width: 170px;
-        min-width: 170px;*/
+        max-width: 170px;
+        min-width: 170px;
         flex-direction: column;
         margin-top: -101px;
-    }
-    .sticklist ul{
-        padding: 0px;
     }
 
     .open-close-arrow {
@@ -24,7 +21,7 @@
         text-align: center;
         line-height: 32px;
         box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
-        background: #203a6b;
+        background: #29499e;
         color: #fff;
         font-size: 20px;
         -webkit-transition: all .3s ease 0s;
@@ -121,7 +118,7 @@
     }
 
     .inquiery-icon {
-        background: #222 !important;
+        background: #000 !important;
         color: #fff !important;
     }
 
@@ -162,7 +159,6 @@
         width: 100%;
         font-size: 16px;
         color: #fff !important;
-        text-decoration: none;
     }
 
     .sticklist .inquiery-icon:hover .btn-text {
@@ -181,7 +177,7 @@
     }
 
     .download-pdf {
-        background: #203a6b !important;
+        background: #29499e !important;
         color: #fff !important;
         border: 0px solid transparent !important;
     }
@@ -198,17 +194,16 @@
     .sticklist ul.open li.download-pdf.none-li.inquiery-icon.click1.imgnone span.icon {
         transform: translateX(-17px);
     }
+
     .imgnone a {
         width: 100%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        text-decoration: unset !important;
     }
     
     .imgnone .btn-text {
         padding-right: 20px;
-      
     }
     
     .imgnone {
@@ -243,6 +238,11 @@
 
 /* mobile side btn */
 @media screen and (max-width: 767px) {
+   
+    .my-custom-modal .px-0 {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
 .footer-box {
     display: flex !important;
     position: fixed;
@@ -270,4 +270,18 @@
     display: none !important;
 }
 
+}
+
+.sticklist ul{padding-left: 0px;}
+
+
+.thankyouPageLayout img {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .thankyouPageLayout img {
+        width: 100%;
+        margin-top: 80px;
+    }
 }

@@ -19,12 +19,12 @@
                             </div>
                             <form class="form-horizontal form3" action="inquiry-action.php" method="post" novalidate="novalidate">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group has-feedback">
                                             <input name="name" id="name" type="text" placeholder="Name" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group has-feedback">
                                             <input name="cname" id="cname" type="text" placeholder="Company Name" class="form-control">
                                         </div>
@@ -32,13 +32,13 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group has-feedback">
                                             <input name="email" id="email" type="text" placeholder="E-Mail Address" class="form-control">
                                         </div>
                                     </div>
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group has-feedback">
                                             <input name="number" id="number" type="tel" placeholder="Phone" maxlength="15" minlength="10" class="form-control number21">
                                         </div>
@@ -47,7 +47,7 @@
 
                                 <div class="row">
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group has-feedback">
                                             <select class="form-control" name="products">
                                                 <option value="" class="placeholder" disabled="" selected="selected">Select product</option>
@@ -58,7 +58,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group has-feedback">
                                             <div class="row">
                                                 <div class="col-md-8 col position-relative">

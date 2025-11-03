@@ -5,11 +5,11 @@ error_reporting(0);
 $contact_page = "https://hvlsfan.in";
 $subject_line= "New Enquiry From HVLS Fan Website";
 $from_email = "support@hvlsfan.in";
-$to_email = "sales@marutair.com";
-$to_email1 = "cs@marutair.com";
-$to_email2 = "info@marutair.com";
-$to_email3 = "ops1@marutair.com";
-$to_email4 = "ops6@marutair.com";
+$to_email = "ops9@marutair.com";
+// $to_email1 = "cs@marutair.com";
+// $to_email2 = "info@marutair.com";
+// $to_email3 = "ops1@marutair.com";
+// $to_email4 = "ops6@marutair.com";
 
 
 $thanks_page = "https://hvlsfan.in/thankyou.php";
@@ -345,10 +345,10 @@ if($response->result){
                         
                     }else{
                       $mail->AddAddress($to_email, $subject_line);
-                      $mail->AddAddress($to_email1, $subject_line);
-                      $mail->AddAddress($to_email2, $subject_line);
-                      $mail->AddAddress($to_email3, $subject_line);
-                      $mail->AddAddress($to_email4, $subject_line);
+                    //   $mail->AddAddress($to_email1, $subject_line);
+                    //   $mail->AddAddress($to_email2, $subject_line);
+                    //   $mail->AddAddress($to_email3, $subject_line);
+                    //   $mail->AddAddress($to_email4, $subject_line);
                         $mail->SetFrom($from_email, $subject_line);
                         // $mail->AddCC($to_email3, $subject_line);
                         $mail->AddBCC('dcbrainsinquiry@gmail.com', $subject_line);

@@ -62,9 +62,10 @@
                                 <h5>Ahmedabad Head Office Contact details</h5>
 
                                 <ul>
-                                    <li>Ms. Kirti Sai - <a href="tel:+917861895765">+91 78618 95765</a></li>
-                                    <li>Mr. Vivek - <a href="tel:+919327935588">+91 93279 35588</a></li>
-                                    <li>Mr. Bhavin Jadav - <a href="tel:+916351156806">+91 6351 156 806</a></li>
+                                    <li>Call - <a href="tel:+917861895765">+91 78618 95765</a></li>
+                                    <li>Email - <a href="mailto:ops9@marutair.com">ops9@marutair.com</a></li>
+                                    <!-- <li>Mr. Vivek - <a href="tel:+919327935588">+91 93279 35588</a></li>
+                                    <li>Mr. Bhavin Jadav - <a href="tel:+916351156806">+91 6351 156 806</a></li> -->
                                 </ul>
                             </div>
                         </div>

@@ -29,9 +29,7 @@
                                             <input name="cname" id="cname" type="text" placeholder="Company Name" class="form-control">
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="row">
                                     <div class="col-md-6 col-12">
                                         <div class="form-group has-feedback">
                                             <input name="email" id="email" type="text" placeholder="E-Mail Address" class="form-control">
@@ -43,9 +41,6 @@
                                             <input name="number" id="number" type="tel" placeholder="Phone" maxlength="15" minlength="10" class="form-control number21">
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="row">
 
                                     <div class="col-md-6 col-12">
                                         <div class="form-group has-feedback">

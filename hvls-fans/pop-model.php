@@ -15,7 +15,7 @@
         </a>
       </li>
       <li class="whataspp-icon none-li imgnone">
-        <a onclick="gtag('event', 'send', { 'event_category': 'click on whatsapp', 'event_action': 'Mobile', 'event_label': '917861867019' });" href="https://api.whatsapp.com/send?phone=917861867019&amp;text=" target="_blank">
+        <a onclick="gtag('event', 'send', { 'event_category': 'click on whatsapp', 'event_action': 'Mobile', 'event_label': '917861867019' });" href="https://api.whatsapp.com/send?phone=917861867019&amp;text=Hello Team Marut Air, I was going through your Website, Please connect me for product discussion." target="_blank">
             <span class="icon1"> <i class="fab fa-whatsapp"></i></span> <span class="btn-text"> Whatsapp</span></a>
     </li>
     </ul>
@@ -229,7 +229,7 @@
     </div>
      
     <div class="book-app" style="background: #2db640;">
-    <a onclick="gtag('event', 'send', { 'event_category': 'click on whatsapp', 'event_action': 'Mobile', 'event_label': '+917861867019' });" href="https://api.whatsapp.com/send?phone=917861867019&amp;text=" target="_blank" style="color:#FFF; font-size:12px;font-weight:600;"><i class="fab fa-whatsapp" style="margin-right: 5px;"></i> </a>
+    <a onclick="gtag('event', 'send', { 'event_category': 'click on whatsapp', 'event_action': 'Mobile', 'event_label': '+917861867019' });" href="https://api.whatsapp.com/send?phone=917861867019&amp;text=Hello Team Marut Air, I was going through your Website, Please connect me for product discussion." target="_blank" style="color:#FFF; font-size:12px;font-weight:600;"><i class="fab fa-whatsapp" style="margin-right: 5px;"></i> </a>
   </div>
 
   </div>

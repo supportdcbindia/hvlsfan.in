@@ -45,7 +45,7 @@ $resArr["phone"] = htmlspecialchars(stripslashes(trim($_POST['number'])));
 $resArr["email_from" ]= htmlspecialchars(stripslashes(trim($_POST['email'])));
 $resArr["city" ]= "";
 $resArr["contact_name" ]= htmlspecialchars(stripslashes(trim($_POST['name'])));
-$resArr["inq_source" ]= "website";
+$resArr["inq_source" ]= "hvlsfan website";
 $resArr["reequired_product" ]= htmlspecialchars(stripslashes(trim($_POST['products'])));
 $resArr["QUERY_ID" ]= time();
 

@@ -279,6 +279,19 @@
     width: 100%;
 }
 
+.thankyouLay {
+    margin: 50px 0px;
+}
+
+h3.thnak3 {
+    font-size: 30px;
+}
+
+h4.thnak4 {
+    font-size: 22px;
+    letter-spacing: 0px;
+}
+
 @media (max-width: 767px) {
     .thankyouPageLayout img {
         width: 100%;

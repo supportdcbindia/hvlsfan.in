@@ -3,7 +3,7 @@ session_start();
 error_reporting(0);
 
 $contact_page = "https://hvlsfan.in/hvls-fans";
-$subject_line= "New Enquiry From HVLS Fan - Landing Page";
+$subject_line= "New Enquiry From HVLS Fan Website";
 $from_email = "support@hvlsfan.in";
 $to_email = "ops9@marutair.com";
 // $to_email1 = "cs@marutair.com";

@@ -82,23 +82,23 @@
                         <ul id="menu-footer-menu-1" class="">
                             <li id="menu-item-318"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-pump_type_categories menu-item-318">
-                                <a href="#">HVLS Fans</a>
+                                <a href="hvls-fans.php">HVLS Fans</a>
                             </li>
                             <li id="menu-item-319"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-pump_type_categories menu-item-319">
-                                <a href="#">Exhaust Fans</a>
+                                <a href="exhaust-fans.php">Exhaust Fans</a>
                             </li>
                             <li id="menu-item-349"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-pump_type_categories menu-item-349">
-                                <a href="#">FRP Exhaust Fan</a>
+                                <a href="frp-exhaust-fan.php">FRP Exhaust Fan</a>
                             </li>
                             <li id="menu-item-323"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-pump_type_categories menu-item-323">
-                                <a href="#">Industrial Air Cooler</a>
+                                <a href="industrial-coolers.php">Industrial Air Cooler</a>
                             </li>
                             <li id="menu-item-700"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-pump_type_categories menu-item-700">
-                                <a href="#">Mobile Fans</a>
+                                <a href="mobile-fans.php">Mobile Fans</a>
                             </li>
                         </ul>
                     </div>

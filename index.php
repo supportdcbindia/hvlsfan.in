@@ -122,7 +122,7 @@
                             <div class="proejctleftanim stb_line_single">
 
                                 <div class="productslider-box text-center prodcutItem">
-                                    <a target="" href="#" class="proejctitem">
+                                    <a target="" href="hvls-fans.php" class="proejctitem">
 
                                         <div class="product-image">
                                             <img decoding="async"
@@ -139,7 +139,7 @@
                                     </a>
                                 </div>
                                 <div class="productslider-box text-center prodcutItem">
-                                    <a target="" href="#" class="proejctitem">
+                                    <a target="" href="exhaust-fans.php" class="proejctitem">
                                         <div class="product-image">
                                             <img decoding="async"
                                                 src="img/product/exhaust-fans.webp"
@@ -155,7 +155,7 @@
                                     </a>
                                 </div>
                                 <div class="productslider-box text-center prodcutItem">
-                                    <a target="" href="#" class="proejctitem">
+                                    <a target="" href="industrial-coolers.php" class="proejctitem">
 
                                         <div class="product-image">
                                             <img decoding="async"
@@ -172,7 +172,7 @@
                                     </a>
                                 </div>
                                 <div class="productslider-box text-center prodcutItem">
-                                    <a target="" href="#" class="proejctitem">
+                                    <a target="" href="mobile-fans.php" class="proejctitem">
                                         <div class="product-image">
                                             <img decoding="async"
                                                 src="img/product/mobile-fans.webp"
@@ -512,7 +512,7 @@
                                         <div class="fs30 pmb0">
                                             <p>A glimpse into real-world installations powered by our advanced air ventilation solutions.</p>
 
-                                            <a target="" href="#" class="btn-theme">Explore our gallery</a>
+                                            <a target="" href="gallery.php" class="btn-theme">Explore our gallery</a>
                                         </div>
                                     </div>
                                 </div>

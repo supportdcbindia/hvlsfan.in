@@ -134,11 +134,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="inf">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
 
-                                <a href="tel:+918160667949">+91 81606 67949</a>
+                                <a href="tel:+917861895765">+91 78618 95765</a>
                             </div>
                             <div class="inf">
                                 <i class="fa fa-envelope"></i>
-                                <a href="mailto:sales@marutair.com">sales@marutair.com</a>
+                                <a href="mailto:ops9@marutair.com">ops9@marutair.com</a>
                             </div>
                         </div>
 

@@ -634,8 +634,8 @@
                     <div class="global-map">
 
                         <picture>
-                            <source srcset="assest/images/our-workflow-marut-air-mob.gif" media="(max-width: 768px)" />
-                            <img src="assest/images/our-workflow-marut-air.gif" alt="map">
+                            <source srcset="https://marutair.com/lp/assest/images/our-workflow-marut-air-mob.gif" media="(max-width: 768px)">
+                            <img src="https://marutair.com/lp/assest/images/our-workflow-marut-air.gif" alt="map">
                         </picture>
 
                     </div>

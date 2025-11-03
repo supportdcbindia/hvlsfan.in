@@ -181,7 +181,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="cdbox ho-address mt-2">
+                            <!-- <div class="cdbox ho-address mt-2">
                                 <div class="cdbox-icon">
                                     <i class="fa-solid fa-phone"></i>
                                 </div>
@@ -203,7 +203,7 @@
                                         cs@marutair.com
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

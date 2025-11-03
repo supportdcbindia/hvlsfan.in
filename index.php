@@ -15,7 +15,7 @@
                                 <div class="row justify-content-between align-items-end">
                                     <div class="col-xl-7 videocaptionleft">
                                         <div class="fs230">Keep<br />
-                                            Spinning<sup>®</sup></div>
+                                            Spinning</div>
                                     </div>
                                     <div class="col-lg-8 col-xl-4 videocaptionright fs30 pmb0">
                                         <p>Our Fans Keep Spinning, So Your Business Keeps Moving.</p>

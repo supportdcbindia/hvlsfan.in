@@ -23,7 +23,7 @@ if (!empty($page) && $page != "index") {
     <link rel='stylesheet' href='css/bootstrap.min.css?ver=1.0' media='all' />
     <link rel='stylesheet' href='css/slick.css?ver=6.5.5' media='all' />
     <link rel='stylesheet' href='css/fancybox.css?ver=6.5.5' media='all' />
-    <link rel='stylesheet' href='css/main.css?ver=6.5.5' media='all' />
+    <link rel='stylesheet' href='css/main.css?ver=<?php echo time(); ?>' media='all' />
     <link rel='stylesheet' href='css/media-query.css?ver=6.5.5' media='all' />
     <link rel='stylesheet' href='css/fontawesome.css' media='all' />
     <script src="js/jquery.min.js?ver=3.7.1" id="jquery-core-js"> </script>

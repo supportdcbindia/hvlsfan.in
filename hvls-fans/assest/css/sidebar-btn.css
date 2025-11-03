@@ -273,3 +273,15 @@
 }
 
 .sticklist ul{padding-left: 0px;}
+
+
+.thankyouPageLayout img {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .thankyouPageLayout img {
+        width: 100%;
+        margin-top: 80px;
+    }
+}

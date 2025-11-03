@@ -3,8 +3,8 @@
 <!-- ========================
        page title 
     =========================== -->
-<section class="page-title-layout1 page-title-light pb-0 bg-overlay">
-    <div class="bg-img"><img src="assest/images/Thank-You.jpg" alt="background"></div>
+<section class="thankyouPageLayout page-title-layout1 page-title-light pb-0 bg-overlay">
+    <div class="bg-img"><img src="assest/images/Thank-You.jpg" alt="background" class="w-100"></div>
     
 
 </section><!-- /.page-title -->

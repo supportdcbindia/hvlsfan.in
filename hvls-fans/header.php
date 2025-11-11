@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="assest/css/swiper-bundle.min.css">
     <!-- <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/style.css?ver=<?php echo time(); ?>">
     <link rel="stylesheet" href="assest/css/responsive.css">
     <link rel="stylesheet" href="assest/css/owl.css">
     <link rel="stylesheet" href="assest/css/owl-carousel-min.css">

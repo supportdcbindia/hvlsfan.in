@@ -7,7 +7,6 @@
             <div class="creative-container">
                 <div class="swiper swiper-container parallax-slider">
                     <div class="swiper-wrapper">
-                        <!-- Slide 1 -->
                         <div class="swiper-slide">
                             <div class="f-slider-layer">
                                 <picture>
@@ -15,98 +14,9 @@
                                         media="(max-width: 768px)" />
                                     <img src="assest/images/banner/banner-one.jpg" alt="map">
                                 </picture>
-
-                                <div class="f-slider-one-data">
-                                    <div class="slider-form">
-                                        <div class="form-div">
-                                            <div class="row">
-                                                <div class="col-lg-12 slider-form-side">
-                                                    <div class="slider-form-title">
-                                                        <h2>connect with us</h2>
-                                                    </div>
-                                                    <form class="form-horizontal form5 my-custom-modal"
-                                                        id="slider-forms" action="inquiry-action.php" method="post">
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <input name="name" id="name" type="text"
-                                                                    placeholder="Name" class="form-control">
-
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <input name="cname" id="cname" type="text"
-                                                                    placeholder="Company Name" class="form-control">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <input name="email" id="email" type="text"
-                                                                    placeholder="E-Mail Address" class="form-control">
-
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <input name="number" id="number" type="tel"
-                                                                    placeholder="Phone" maxlength="15" minlength="10"
-                                                                    class="form-control number21">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-
-                                                                <select class="form-control" name="products">
-                                                                    <option value="" class="placeholder" disabled=""
-                                                                        selected="selected">Select product</option>
-                                                                    <option value="HVLS Fans">HVLS Fans</option>
-                                                                    <option value="Exhaust Fans">Exhaust Fans</option>
-                                                                    <option value="Industrial Air Cooler">Industrial Air
-                                                                        Cooler</option>
-                                                                    <option value="Mobile Fans">Mobile Fans</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <div class="row">
-                                                                    <div class="col-md-8 col position-relative">
-                                                                        <input name="captcha" id="captcha"
-                                                                            placeholder="Captcha Code"
-                                                                            class="form-control" type="text">
-
-                                                                    </div>
-                                                                    <div class="col-md-4 col">
-                                                                        <img src="captcha.php" class="capside"
-                                                                            style="margin-top: 0px;">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12 col-sm-3 col-xs-12">
-                                                                <input name="submit"
-                                                                    class="submit submitbutton edu-btn btn-5 btn m-0"
-                                                                    type="submit" value="Submit Now!">
-                                                            </div>
-                                                        </div>
-                                                    </form>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
                             </div>
                         </div>
 
-                        <!-- Slide 3 -->
                         <div class="swiper-slide">
                             <div class="f-slider-layer">
 
@@ -115,90 +25,6 @@
                                         media="(max-width: 768px)" />
                                     <img src="assest/images/banner/banner-three.jpg" alt="map">
                                 </picture>
-                                <div class="f-slider-one-data">
-                                    <div class="slider-form">
-                                        <div class="form-div">
-                                            <div class="row">
-                                                <div class="col-lg-12 slider-form-side">
-                                                    <div class="slider-form-title">
-                                                        <h2>connect with us</h2>
-                                                    </div>
-                                                    <form class="form-horizontal form6 my-custom-modal"
-                                                        id="slider-forms" action="inquiry-action.php" method="post">
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <input name="name" id="name" type="text"
-                                                                    placeholder="Name" class="form-control">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <input name="cname" id="cname" type="text"
-                                                                    placeholder="Company Name" class="form-control">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <input name="email" id="email" type="text"
-                                                                    placeholder="E-Mail Address" class="form-control">
-
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <input name="number" id="number" type="tel"
-                                                                    placeholder="Phone" maxlength="15" minlength="10"
-                                                                    class="form-control number21">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-
-                                                                <select class="form-control" name="products">
-                                                                    <option value="" class="placeholder" disabled=""
-                                                                        selected="selected">Select product</option>
-                                                                    <option value="HVLS Fans">HVLS Fans</option>
-                                                                    <option value="Exhaust Fans">Exhaust Fans</option>
-                                                                    <option value="Industrial Air Cooler">Industrial Air
-                                                                        Cooler</option>
-                                                                    <option value="Mobile Fans">Mobile Fans</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12">
-                                                                <div class="row">
-                                                                    <div class="col-md-8 col position-relative">
-                                                                        <input name="captcha" id="captcha"
-                                                                            placeholder="Captcha Code"
-                                                                            class="form-control" type="text">
-
-                                                                    </div>
-                                                                    <div class="col-md-4 col">
-                                                                        <img src="captcha.php" class="capside"
-                                                                            style="margin-top: 0px;">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group has-feedback">
-                                                            <div class="col-md-12 col-sm-3 col-xs-12">
-                                                                <input name="submit"
-                                                                    class="submit submitbutton edu-btn btn-5 btn m-0"
-                                                                    type="submit" value="Submit Now!">
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -209,6 +35,91 @@
                                 class="fa-solid fa-angles-right"></i></button>
                     </div>
                 </div>
+            </div>
+
+            <div class="f-slider-one-data">
+                <div class="slider-form">
+                    <div class="form-div">
+                        <div class="row">
+                            <div class="col-lg-12 slider-form-side">
+                                <div class="slider-form-title">
+                                    <h2>connect with us</h2>
+                                </div>
+                                <form class="form-horizontal form6 my-custom-modal"
+                                    id="slider-forms" action="inquiry-action.php" method="post">
+                                    <div class="form-group has-feedback">
+                                        <div class="col-md-12">
+                                            <input name="name" id="name" type="text"
+                                                placeholder="Name" class="form-control">
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <div class="col-md-12">
+                                            <input name="cname" id="cname" type="text"
+                                                placeholder="Company Name" class="form-control">
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <div class="col-md-12">
+                                            <input name="email" id="email" type="text"
+                                                placeholder="E-Mail Address" class="form-control">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group has-feedback">
+                                        <div class="col-md-12">
+                                            <input name="number" id="number" type="tel"
+                                                placeholder="Phone" maxlength="15" minlength="10"
+                                                class="form-control number21">
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <div class="col-md-12">
+
+                                            <select class="form-control" name="products">
+                                                <option value="" class="placeholder" disabled=""
+                                                    selected="selected">Select product</option>
+                                                <option value="HVLS Fans">HVLS Fans</option>
+                                                <option value="Exhaust Fans">Exhaust Fans</option>
+                                                <option value="Industrial Air Cooler">Industrial Air
+                                                    Cooler</option>
+                                                <option value="Mobile Fans">Mobile Fans</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-8 col position-relative">
+                                                    <input name="captcha" id="captcha"
+                                                        placeholder="Captcha Code"
+                                                        class="form-control" type="text">
+
+                                                </div>
+                                                <div class="col-md-4 col">
+                                                    <img src="captcha.php" class="capside"
+                                                        style="margin-top: 0px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <div class="col-md-12 col-sm-3 col-xs-12">
+                                            <input name="submit"
+                                                class="submit submitbutton edu-btn btn-5 btn m-0"
+                                                type="submit" value="Submit Now!">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -283,65 +194,65 @@
                 <h2 class="text-center">our products</h2>
             </div>
             <div class="content-layout container-site">
-                <div class="products-sliders"  style="background-blend-mode: overlay; background-color: #ffffffde;">
+                <div class="products-sliders" style="background-blend-mode: overlay; background-color: #ffffffde;">
                     <div class="single-client-logo">
-                    <a href="javascript:void(0);" class="click1">
-                        <figure class="product-picture">
-                            <img class="zoom mx-auto" src="assest/images/products/hvls-fan.jpg" alt="">
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-content">
-                                <h3 class="product-title">HVLS Fans</h3>
+                        <a href="javascript:void(0);" class="click1">
+                            <figure class="product-picture">
+                                <img class="zoom mx-auto" src="assest/images/products/hvls-fan.jpg" alt="">
+                            </figure>
+                            <div class="product-body">
+                                <div class="product-content">
+                                    <h3 class="product-title">HVLS Fans</h3>
+                                </div>
                             </div>
-                        </div>
                         </a>
                     </div>
                     <div class="single-client-logo">
-                    <a href="javascript:void(0);" class="click1">
-                        <figure class="product-picture">
-                            <img class="zoom mx-auto" src="assest/images/products/domestic-hvls-fan.webp" alt="">
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-content">
-                                <h3 class="product-title">Domestic HVLS Fan</h3>
+                        <a href="javascript:void(0);" class="click1">
+                            <figure class="product-picture">
+                                <img class="zoom mx-auto" src="assest/images/products/domestic-hvls-fan.webp" alt="">
+                            </figure>
+                            <div class="product-body">
+                                <div class="product-content">
+                                    <h3 class="product-title">Domestic HVLS Fan</h3>
+                                </div>
                             </div>
-                        </div>
                         </a>
                     </div>
                     <div class="single-client-logo">
-                    <a href="javascript:void(0);" class="click1">
-                        <figure class="product-picture">
-                            <img class="zoom mx-auto" src="assest/images/products/Exhaust-Fans.jpg" alt="">
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-content">
-                                <h3 class="product-title">Exhaust Fans</h3>
+                        <a href="javascript:void(0);" class="click1">
+                            <figure class="product-picture">
+                                <img class="zoom mx-auto" src="assest/images/products/Exhaust-Fans.jpg" alt="">
+                            </figure>
+                            <div class="product-body">
+                                <div class="product-content">
+                                    <h3 class="product-title">Exhaust Fans</h3>
+                                </div>
                             </div>
-                        </div>
                         </a>
                     </div>
                     <div class="single-client-logo">
-                    <a href="javascript:void(0);" class="click1">
-                        <figure class="product-picture">
-                            <img class="zoom mx-auto" src="assest/images/products/Industrial-Air-Cooler.jpg" alt="">
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-content">
-                                <h3 class="product-title">Industrial Coolers</h3>
+                        <a href="javascript:void(0);" class="click1">
+                            <figure class="product-picture">
+                                <img class="zoom mx-auto" src="assest/images/products/Industrial-Air-Cooler.jpg" alt="">
+                            </figure>
+                            <div class="product-body">
+                                <div class="product-content">
+                                    <h3 class="product-title">Industrial Coolers</h3>
+                                </div>
                             </div>
-                        </div>
                         </a>
                     </div>
                     <div class="single-client-logo">
-                    <a href="javascript:void(0);" class="click1">
-                        <figure class="product-picture">
-                            <img class="zoom mx-auto" src="assest/images/products/Mobile-Fans.jpg" alt="">
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-content">
-                                <h3 class="product-title">Mobile Fans</h3>
+                        <a href="javascript:void(0);" class="click1">
+                            <figure class="product-picture">
+                                <img class="zoom mx-auto" src="assest/images/products/Mobile-Fans.jpg" alt="">
+                            </figure>
+                            <div class="product-body">
+                                <div class="product-content">
+                                    <h3 class="product-title">Mobile Fans</h3>
+                                </div>
                             </div>
-                        </div>
                         </a>
                     </div>
                     <!-- Additional product slides here... -->
@@ -672,50 +583,50 @@
                                         <div class="swiper logo-row-one mb-4">
                                             <div class="swiper-wrapper">
                                                 <?php
-                error_reporting(0);
-                $nb_elem_per_page = 100;
-                $page = isset($_GET['page'])?intval($_GET['page']-1):0;
-                $data = glob("assest/images/clients-logo/first/*.*");
-                $number_of_pages = intval(count($data)/$nb_elem_per_page)+1;
-                ?>
+                                                error_reporting(0);
+                                                $nb_elem_per_page = 100;
+                                                $page = isset($_GET['page']) ? intval($_GET['page'] - 1) : 0;
+                                                $data = glob("assest/images/clients-logo/first/*.*");
+                                                $number_of_pages = intval(count($data) / $nb_elem_per_page) + 1;
+                                                ?>
                                                 <?php
-                foreach (array_slice($data, $page*$nb_elem_per_page, $nb_elem_per_page) as $p) {
-                ?>
-                                                <div class="swiper-slide">
-                                                    <div class="brands-item" data-aos="zoom-in">
-                                                        <div class="brand-box">
-                                                            <img src="<?php echo $p; ?>" alt="">
+                                                foreach (array_slice($data, $page * $nb_elem_per_page, $nb_elem_per_page) as $p) {
+                                                ?>
+                                                    <div class="swiper-slide">
+                                                        <div class="brands-item" data-aos="zoom-in">
+                                                            <div class="brand-box">
+                                                                <img src="<?php echo $p; ?>" alt="">
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
                                                 <?php
-                }
-                ?>
+                                                }
+                                                ?>
 
                                             </div>
                                         </div>
                                         <div class="swiper logo-row-two">
                                             <div class="swiper-wrapper">
                                                 <?php
-                error_reporting(0);
-                $nb_elem_per_page = 100;
-                $page = isset($_GET['page'])?intval($_GET['page']-1):0;
-                $data = glob("assest/images/clients-logo/second/*.*");
-                $number_of_pages = intval(count($data)/$nb_elem_per_page)+1;
-                ?>
+                                                error_reporting(0);
+                                                $nb_elem_per_page = 100;
+                                                $page = isset($_GET['page']) ? intval($_GET['page'] - 1) : 0;
+                                                $data = glob("assest/images/clients-logo/second/*.*");
+                                                $number_of_pages = intval(count($data) / $nb_elem_per_page) + 1;
+                                                ?>
                                                 <?php
-                foreach (array_slice($data, $page*$nb_elem_per_page, $nb_elem_per_page) as $p) {
-                ?>
-                                                <div class="swiper-slide">
-                                                    <div class="brands-item" data-aos="zoom-in">
-                                                        <div class="brand-box">
-                                                            <img src="<?php echo $p; ?>" alt="">
+                                                foreach (array_slice($data, $page * $nb_elem_per_page, $nb_elem_per_page) as $p) {
+                                                ?>
+                                                    <div class="swiper-slide">
+                                                        <div class="brands-item" data-aos="zoom-in">
+                                                            <div class="brand-box">
+                                                                <img src="<?php echo $p; ?>" alt="">
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
                                                 <?php
-                }
-                ?>
+                                                }
+                                                ?>
                                             </div>
                                         </div>
                                     </div>

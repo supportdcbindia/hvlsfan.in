@@ -2739,3 +2739,60 @@ span.fab.fa-youtube {
   background-repeat: no-repeat;
   background-position: top center;
 }
+
+.f-slider-one-data {
+    position: absolute;
+    top: 200px;
+    z-index: 9;
+    right: 50px;
+    width: 25%;
+}
+
+.f-slider-one-data h2 {
+  opacity: 1 !important;
+  font-size: 30px !important;
+  text-align: center !important;
+}
+
+@media (max-width: 1440px) {
+    .slider-form-side {
+      padding: 10px 20px !important;
+    }
+
+    .slider-form-side .has-feedback {
+      margin-bottom: 15px !important;
+    }
+
+    .f-slider-one-data h2 {
+      font-size: 25px !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .slider-form-side {
+      padding: 10px 20px !important;
+      margin-top: 10px;
+    }
+
+    .slider-form-side .has-feedback {
+      margin-bottom: 10px !important;
+    }
+
+    .f-slider-one-data h2 {
+      font-size: 18px !important;
+    }
+}
+
+@media (max-width: 991px) {
+  .f-slider-one-data {
+    display: none;
+  }
+
+  .swiper-nav {
+    display: none;
+  }
+}
+
+.btn-5:hover {
+    color: #ffffff !important;
+}

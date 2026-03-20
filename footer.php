@@ -150,7 +150,7 @@
                                     <i class="fa-solid fa-phone"></i>
                                 </div>
                                 <div class="cdbox-content">
-                                    <a href="tel:+917861895765">+91 78618 95765</a>
+                                    <a href="tel:+919327935588">+91 93279 35588</a>
                                 </div>
                             </div>
                             <div class="cdbox ho-address mt-2">
@@ -158,8 +158,8 @@
                                     <i class="fa-solid fa-envelope"></i>
                                 </div>
                                 <div class="cdbox-content">
-                                    <a href="mailto:ops9@marutair.com">
-                                        ops9@marutair.com
+                                    <a href="mailto:ops7@marutair.com">
+                                        ops7@marutair.com
                                     </a>
                                 </div>
                             </div>

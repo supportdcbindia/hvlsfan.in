@@ -86,7 +86,7 @@
                             <div class="ContactAddressContent">
                                 <h5>Email Us on</h5>
                                 <ul>
-                                    <li>For Sales inquiry - <a href="mailto:ops9@marutair.com">ops9@marutair.com</a></li>
+                                    <li>For Sales inquiry - <a href="mailto:ops7@marutair.com">ops7@marutair.com</a></li>
                                     <li>For Sales inquiry - <a href="mailto:ops7@marutair.com">ops7@marutair.com</a></li>
                                     <li>For More Information - <a href="mailto:cs@marutair.com">cs@marutair.com</a></li>
                                 </ul>

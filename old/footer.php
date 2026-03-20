@@ -177,8 +177,8 @@
                                     <i class="fa-solid fa-envelope"></i>
                                 </div>
                                 <div class="cdbox-content">
-                                    <a href="mailto:ops9@marutair.com">
-                                        ops9@marutair.com
+                                    <a href="mailto:ops7@marutair.com">
+                                        ops7@marutair.com
                                     </a>
                                 </div>
                             </div>
